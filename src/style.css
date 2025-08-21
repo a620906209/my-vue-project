@@ -1,3 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* 自訂樣式可放在 Tailwind 之後 */
+h1 {
+  /* 來自 src/assets/main.css 的設定 */
+  color: blue;
+}
